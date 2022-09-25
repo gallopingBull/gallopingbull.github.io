@@ -1,24 +1,95 @@
 html, body {
-    height: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
 }
-main {
-    min-height: 100%;
-    margin-bottom: -100px;
-    background: #ddd;
+
+.websitetitle {
+	float: left;
+	line-height: 1;
 }
-main:after {
-    content: "";
-    display: block;
-    height: 100px;
+
+.jobtitle {
+	float: left;
+	text-align: bottom;
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    color: #fff;
+
+.topnav {
+	overflow: hidden;
+	background-color: black;
+}
+
+.topnav a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: black;
+	color: dimgray;
+}
+
+<!---Style all font awesome icons-->
+.fa {
+  padding: 00px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+<!---Add a hover effect if you want-->
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	text-align: right;
+	bottom: 0;
+	padding: 3px;
+	height: auto;
+	width: 100vw;
+	<!---background-color: black;-->
+	color: white;
+}
+
+.warning {
+	<!---border: 10px ridge #f00;!--->
+	background-color: black;
+	padding: .5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+<!--- I WANT TO REPLACE THIS TO DISPLAY A 3D MESH INSTEAD!--->
+.warning img {
+	width: 100%;
+	 object-fit: contain;
+	 align: center;
+	padding: 0;
+	display: block;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;	
 }
