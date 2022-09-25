@@ -4,7 +4,7 @@
     <title>galloping_bull - projects</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<!-- Add icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="script.js" defer></script>
 </head>
 
 <body style=" background-color: black">
@@ -27,12 +28,24 @@
 		</div>
 	</div>
 	
+	<div class="search-wrapper">
+		<label for="search"> Search my shit...</label>
+		<input type= "search" id="search">	
+	</div>
+	<div class="user-cards" data-user-cards-container></div>
+	<template data-user-template>
+		<div class="card">
+			<div class="header" data-header ></div>
+			<div class="body" data-body>johndoe@aol.com</div>
+		</div>
+	</template>
+	
 	<div class="warning">
-	 <p><a href="unitydl://mylink">Some link</a></p>
-		<p><a href="unitydl://mylink?parameter">Some link with Parameter</a></p>
+		<!--- <p><a href="unitydl://mylink">Some link</a></p> --->
+		<!--- <p><a href="unitydl://mylink?parameter">Some link with Parameter</a></p> --->
 		<img src="media/digitalSkull.png" alt="An intimidating leopard."/>
 	</div>
-
+	
 </body>
 
 <footer>
