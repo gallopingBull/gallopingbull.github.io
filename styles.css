@@ -7,18 +7,21 @@ html, body {
 
 .search-wrapper {
 	display: flex;
-	
 	flex-direction: column;
+	
 	gap: .25rem;
 }
 
 input {
 	font-size: 1rem;
+
+	<!---background-color: transparent;--->
 }
 
 .user-cards {
-	display: grid;
+	display: block;
 	text-align: left;
+
 	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 	gap: .25rem
 	margin-top: 1rem;
@@ -26,18 +29,20 @@ input {
 
 .card {
 	border: 1px black;
-	color: #337ab7;
+	width:500px;
+	background-color: black;
 
 	padding: .5rem; 
 }
 
 .card > .header {
-	font-size: .25rem;
+	color: white;
+	font-size: 1rem;
 }
 
 .card > .body {
-	margin-bottom: .8rem;
-	color: #777;
+	margin-bottom: 1rem;
+	color: #337ab7;
 }
 
 .hide {
@@ -112,16 +117,26 @@ footer {
 	color: white;
 }
 
-.warning {
+.bodyContent {
 	<!---border: 10px ridge #f00;!--->
 	background-color: black;
 	padding: .5rem;
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	text-align: center;
 }
 
+.centered {
+  margin: 0 auto;
+  position: absolute;
+  <!--left: 35%;-->
+	width: 500;
+   top: 5%;
+
+}
 <!--- I WANT TO REPLACE THIS TO DISPLAY A 3D MESH INSTEAD!--->
-.warning img {
+.bodyContent img {
 	width: 100%;
 	 object-fit: contain;
 	 align: center;
@@ -131,4 +146,8 @@ footer {
 	max-height: 100%;
 	max-width: 100%;
 	height: auto;	
+}
+
+.searchResultsContainer{
+	
 }
