@@ -26,7 +26,7 @@ fetch("projectsData.json")
       header.textContent = user.gametitle
       body.textContent = user.role
       userCardContainer.append(card)
-      return { name: user.gametitle, email: user.role, element: card }
+      return { gametitle: user.gametitle, role: user.role, element: card }
     })
 	
 	//I might delete this line... maybe should

@@ -15,7 +15,7 @@ html, body {
 input {
 	font-size: 1rem;
 
-	<!---background-color: transparent;--->
+
 }
 
 .user-cards {
@@ -23,7 +23,7 @@ input {
 	text-align: left;
 
 	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-	gap: .25rem
+	gap: .25rem;
 	margin-top: 1rem;
 }
 
@@ -113,13 +113,11 @@ footer {
 	padding: 3px;
 	height: auto;
 	width: 100vw;
-	<!---background-color: black;-->
 	color: white;
 }
 
 .bodyContent {
-	<!---border: 10px ridge #f00;!--->
-	background-color: gray;
+
 	padding: .5rem;
 	display: flex;
 	flex-direction: column;
@@ -135,7 +133,7 @@ footer {
    top: 5%;
 
 }
-<!--- I WANT TO REPLACE THIS TO DISPLAY A 3D MESH INSTEAD!--->
+
 .bodyContent img {
 	width: 100%;
 	 object-fit: contain;
