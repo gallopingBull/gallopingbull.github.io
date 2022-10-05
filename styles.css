@@ -26,14 +26,27 @@ input {
 	gap: .25rem;
 	margin-top: 1rem;
 }
+.card-img img{
+	display: block;
+
+}
 
 .card {
+
 	border: 1px black;
 	width:500px;
 	background-color: black;
 
 	padding: .5rem; 
 }
+.cardBG img{
+	
+	height: 1px;
+	display: flex;
+	position: relative;
+
+}
+
 
 .card > .header {
 	color: white;
@@ -131,13 +144,12 @@ footer {
   left: 35%;
 	width: absolute;
    top: 5%;
-
 }
 
 .bodyContent img {
 	width: 100%;
-	 object-fit: contain;
-	 align: center;
+	object-fit: contain;
+	align: center;
 	padding: 0;
 	display: block;
 	margin: 0 auto;
