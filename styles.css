@@ -32,12 +32,13 @@ input {
 
 .card {
 	position: absolute;
-	border: 1px black;
+	border: .01px black;
+
 	display: block;
 	font-size: x-large;
 	background-color: black;
 	
-	padding: .5rem; 
+
 }
 .cardBG{
 	display: flex;
@@ -45,7 +46,12 @@ input {
 	padding: .5rem;
 	width: 1000px;
 }
-
+.tools{
+	color: white;
+	
+	font-size: 1rem;
+	font-size: small;
+}
 
 .card > .header {
 	color: white;
@@ -54,6 +60,7 @@ input {
 }
 
 .card > .body {
+	
 	margin-bottom: 1rem;
 	color: #337ab7;
 }
@@ -141,7 +148,7 @@ footer {
 .centered {
   margin: 0 auto;
   position: absolute;
-  left: 35%;
+  left: 25%;
 	width: absolute;
    top: 5%;
 }

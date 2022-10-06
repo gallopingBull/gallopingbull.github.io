@@ -23,10 +23,12 @@ fetch("../data/projectsData.json")
       const card = userCardTemplate.content.cloneNode(true).children[0]
       const header = card.querySelector("[data-header]")
       const body = card.querySelector("[data-body]")
+      const tools = card.querySelector("[data-tools]")
       header.textContent = user.gametitle
       body.textContent = user.role
+      tools.textContent = user.tools
       userCardContainer.append(card)
-      return { gametitle: user.gametitle, role: user.role, element: card }
+      return { gametitle: user.gametitle, role: user.role, tools: user.tools,element: card }
     })
 	
 	//I might delete this line... maybe should
