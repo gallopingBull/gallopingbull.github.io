@@ -11,7 +11,8 @@ searchInput.addEventListener("input", e => {
   users.forEach(user => {
     const isVisible =
       user.gametitle.toLowerCase().includes(value) || 
-      user.role.toLowerCase().includes(value)
+      user.role.toLowerCase().includes(value) ||
+      user.tools.toLowerCase().includes(value)
     user.element.classList.toggle("hide", !isVisible)
   })
 })
