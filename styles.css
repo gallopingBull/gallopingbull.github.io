@@ -34,6 +34,7 @@ input {
 	position: absolute;
 	border: 1px black;
 	display: block;
+	font-size: x-large;
 	background-color: black;
 	
 	padding: .5rem; 
@@ -41,7 +42,7 @@ input {
 .cardBG{
 	display: flex;
 	position: relative;
-
+	padding: .5rem;
 	width: 1000px;
 }
 
@@ -49,6 +50,7 @@ input {
 .card > .header {
 	color: white;
 	font-size: 1rem;
+	font-size: x-small;
 }
 
 .card > .body {
