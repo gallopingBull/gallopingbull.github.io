@@ -32,16 +32,16 @@ input {
 }
 
 .card {
-
+	position: absolute;
 	border: 1px black;
-	width:500px;
+	display: block;
 	background-color: black;
-
+	
 	padding: .5rem; 
 }
-.cardBG img{
+.cardBG{
 	
-	height: 1px;
+
 	display: flex;
 	position: relative;
 
