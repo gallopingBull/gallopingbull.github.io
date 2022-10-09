@@ -17,7 +17,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("../data/projectsData.json")
+fetch("./data/projectsData.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user =>	 {
@@ -25,13 +25,19 @@ fetch("../data/projectsData.json")
       const header = card.querySelector("[data-header]")
       const body = card.querySelector("[data-body]")
       const tools = card.querySelector("[data-tools]")
+      const path = card.querySelector("[data-path]")
       header.textContent = user.gametitle
       body.textContent = user.role
       tools.textContent = user.tools
+
+      //path.textContent = user.path
+
+      $('#screen').attr('href', user.path)
       userCardContainer.append(card)
-      return { gametitle: user.gametitle, role: user.role, tools: user.tools,element: card }
+      return { gametitle: user.gametitle, role: user.role, tools: user.tools, path: user.path, element: card }
     })
 	
 	//I might delete this line... maybe should
 	//.catch(error => console.log(error));
   })
+

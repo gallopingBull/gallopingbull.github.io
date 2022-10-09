@@ -10,7 +10,7 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    " path": "projects/projectTemplate.HTML"
   },
   {
     "id": 1,
@@ -23,7 +23,7 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "path": "https://www.joshuasalcido.net/darkstorm"
   },
   {
     "id": 2,
@@ -36,7 +36,7 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "path": "https://www.joshuasalcido.net/darkstorm"
   },
   {
     "id": 3,
@@ -133,6 +133,6 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "path": "https://www.joshuasalcido.net/darkstorm"
   }  
 ]
