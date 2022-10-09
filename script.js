@@ -25,14 +25,15 @@ fetch("./data/projectsData.json")
       const header = card.querySelector("[data-header]")
       const body = card.querySelector("[data-body]")
       const tools = card.querySelector("[data-tools]")
-      const path = card.querySelector("[data-path]")
+      const path = card.querySelector("#screen")
       header.textContent = user.gametitle
       body.textContent = user.role
       tools.textContent = user.tools
+    
 
-      //path.textContent = user.path
+      console.log(user)
 
-      $('#screen').attr('href', user.path)
+      //$('#screen').attr('href', user.path)
       userCardContainer.append(card)
       return { gametitle: user.gametitle, role: user.role, tools: user.tools, path: user.path, element: card }
     })
