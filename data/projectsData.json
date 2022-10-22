@@ -10,8 +10,9 @@
       "right",
       "bottom"
     ],
-    " path": "projects/projectTemplate.HTML"
+    "path": "projects/projectTemplate.HTML"
   },
+  
   {
     "id": 1,
     "gametitle": "Dark Storm: Ascension",
@@ -25,6 +26,7 @@
     ],
     "path": "https://www.joshuasalcido.net/darkstorm"
   },
+
   {
     "id": 2,
     "gametitle": "NinjaGo: Skytemple",
@@ -38,6 +40,7 @@
     ],
     "path": "https://www.joshuasalcido.net/darkstorm"
   },
+
   {
     "id": 3,
     "gametitle": "The Bunker",

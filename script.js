@@ -17,28 +17,44 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("./data/projectsData.json")
+const links = document.querySelectorAll("a.screen");
+links.forEach(link => link.href = "https://google.com");
+
+  $(document).ready(function() {  
+
+    fetch("./data/projectsData.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user =>	 {
       const card = userCardTemplate.content.cloneNode(true).children[0]
+   
       const header = card.querySelector("[data-header]")
       const body = card.querySelector("[data-body]")
       const tools = card.querySelector("[data-tools]")
-      const path = card.querySelector("#screen")
+      const path = card.querySelector("[data-path]")
+
       header.textContent = user.gametitle
       body.textContent = user.role
-      tools.textContent = user.tools
-    
-
-      console.log(user)
-
-      //$('#screen').attr('href', user.path)
+      tools.textContent = user.tools  
+      path.href = user.path
+      console.log(path)
+      console.log(user.path)
+  
+  
       userCardContainer.append(card)
       return { gametitle: user.gametitle, role: user.role, tools: user.tools, path: user.path, element: card }
-    })
+    }
+    
+    )
 	
-	//I might delete this line... maybe should
-	//.catch(error => console.log(error));
+    //I might delete this line... maybe should
+    //.catch(error => console.log(error));
   })
 
+  }); 
+
+ 
+
+  function getURL(){
+
+  }
