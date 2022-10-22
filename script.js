@@ -17,12 +17,10 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-const links = document.querySelectorAll("a.screen");
-links.forEach(link => link.href = "https://google.com");
 
   $(document).ready(function() {  
 
-    fetch("./data/projectsData.json")
+  fetch("./data/projectsData.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user =>	 {
@@ -32,13 +30,16 @@ links.forEach(link => link.href = "https://google.com");
       const body = card.querySelector("[data-body]")
       const tools = card.querySelector("[data-tools]")
       const path = card.querySelector("[data-path]")
+      const image = card.querySelector("[data-image]")
 
       header.textContent = user.gametitle
       body.textContent = user.role
       tools.textContent = user.tools  
-      path.href = user.path
+      path.href = user.url//"projects/" + usur.url + /"index.HTML"
+      //image.src = user.bannerimage//"projects/" + user.bannerImage + /"banner.png"
+
       console.log(path)
-      console.log(user.path)
+      console.log(user.url)
   
   
       userCardContainer.append(card)
@@ -52,9 +53,3 @@ links.forEach(link => link.href = "https://google.com");
   })
 
   }); 
-
- 
-
-  function getURL(){
-
-  }

@@ -10,9 +10,10 @@
       "right",
       "bottom"
     ],
-    "path": "projects/projectTemplate.HTML"
+    "url": "projects/projectTemplate.HTML",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
-  
+
   {
     "id": 1,
     "gametitle": "Dark Storm: Ascension",
@@ -24,7 +25,8 @@
       "right",
       "bottom"
     ],
-    "path": "https://www.joshuasalcido.net/darkstorm"
+    "url": "https://www.joshuasalcido.net/darkstorm",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
 
   {
@@ -38,7 +40,8 @@
       "right",
       "bottom"
     ],
-    "path": "https://www.joshuasalcido.net/darkstorm"
+    "url": "https://www.joshuasalcido.net/darkstorm",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
 
   {
@@ -52,7 +55,8 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "url": "Media/SomeImage.png",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
 
   {
@@ -66,7 +70,8 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "url": "Media/SomeImage.png",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
 
   {
@@ -80,25 +85,12 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "url": "Media/SomeImage.png",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
   
   {
     "id": 6,
-    "gametitle": "Grow",
-    "role": "Gameplay Programmer",
-    "tools": "Unreal Engine 4 // Blueprints",
-    "textalign": [
-      "left",
-      "top",
-      "right",
-      "bottom"
-    ],
-    "path": "Media/SomeImage.png"
-  },
-
-  {
-    "id": 7,
     "gametitle": "Pondeux",
     "role": "Game Designer // Programmer",
     "tools": "Unity // C#",
@@ -108,11 +100,12 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "url": "Media/SomeImage.png",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
   
   {
-    "id": 8,
+    "id": 7,
     "gametitle": "Andromeda",
     "role": "Level Designer",
     "tools": "Unity",
@@ -122,11 +115,12 @@
       "right",
       "bottom"
     ],
-    "path": "Media/SomeImage.png"
+    "url": "Media/SomeImage.png",
+    "bannerImage": "projects/projectTemplate.HTML"
   },
     
   {
-    "id": 9,
+    "id": 8,
     "gametitle": "Operation: Acorn",
     "role": "Game Programmer",
     "tools": "UDK // Kismet // Unrealscript",
@@ -136,6 +130,7 @@
       "right",
       "bottom"
     ],
-    "path": "https://www.joshuasalcido.net/darkstorm"
+    "url": "https://www.joshuasalcido.net/darkstorm",
+    "bannerImage": "projects/projectTemplate.HTML"
   }  
 ]
