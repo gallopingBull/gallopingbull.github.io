@@ -50,7 +50,7 @@ $(document).ready(function () {
       )
 
       //I might delete this line... maybe should
-      //.catch(error => console.log(error));
+      .catch(error => console.log(error));
     })
 
 });
