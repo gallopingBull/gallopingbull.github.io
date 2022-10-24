@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "gametitle": "Casey's Condo (NSFW)",
+    "title": "Casey's Condo (NSFW)",
     "role": "Unreal Developer",
     "tools": "Unreal Engine 4 // Blueprints",
     "textalign": [
@@ -15,7 +15,7 @@
 
   {
     "id": 1,
-    "gametitle": "Dark Storm: Ascension",
+    "title": "Dark Storm: Ascension",
     "role": "Level Designer",
     "tools": "Unreal Engine 4 // Blueprints",
     "textalign": [
@@ -29,7 +29,7 @@
 
   {
     "id": 2,
-    "gametitle": "NinjaGo: Skytemple",
+    "title": "NinjaGo: Skytemple",
     "role": "Game Designer // Programmer",
     "tools": "Unity // C#",
     "textalign": [
@@ -43,7 +43,7 @@
 
   {
     "id": 3,
-    "gametitle": "The Bunker",
+    "title": "The Bunker",
     "role": "Level Designer // Programmer",
     "tools": "Unreal Engine 4 // Bluepeints",
     "textalign": [
@@ -57,7 +57,7 @@
 
   {
     "id": 4,
-    "gametitle": "Asteroids",
+    "title": "Asteroids",
     "role": "Game Designerr // Programmer",
     "tools": "Unity // C#",
     "textalign": [
@@ -71,7 +71,7 @@
 
   {
     "id": 5,
-    "gametitle": "Grow",
+    "title": "Grow",
     "role": "Gameplay Programmer",
     "tools": "Unreal Engine 4 // Blueprints",
     "textalign": [
@@ -85,7 +85,7 @@
   
   {
     "id": 6,
-    "gametitle": "Pondeux",
+    "title": "Pondeux",
     "role": "Game Designer // Programmer",
     "tools": "Unity // C#",
     "textalign": [
@@ -99,7 +99,7 @@
   
   {
     "id": 7,
-    "gametitle": "Andromeda",
+    "title": "Andromeda",
     "role": "Level Designer",
     "tools": "Unity",
     "textalign": [
@@ -113,7 +113,7 @@
     
   {
     "id": 8,
-    "gametitle": "Operation: Acorn",
+    "title": "Operation: Acorn",
     "role": "Game Programmer",
     "tools": "UDK // Kismet // Unrealscript",
     "textalign": [

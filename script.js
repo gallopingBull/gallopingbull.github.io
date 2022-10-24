@@ -4,16 +4,16 @@ const userCardTemplate = document.querySelector("[data-user-template]")
 const userCardContainer = document.querySelector("[data-user-cards-container]")
 const searchInput = document.querySelector("[data-search]")
 
-let users = []
+let projects = []
 
 searchInput.addEventListener("input", e => {
   const value = e.target.value.toLowerCase()
-  users.forEach(user => {
+  projects.forEach(project => {
     const isVisible =
-      user.gametitle.toLowerCase().includes(value) || 
-      user.role.toLowerCase().includes(value) ||
-      user.tools.toLowerCase().includes(value)
-    user.element.classList.toggle("hide", !isVisible)
+      project.title.toLowerCase().includes(value) || 
+      project.role.toLowerCase().includes(value) ||
+      project.tools.toLowerCase().includes(value)
+    project.element.classList.toggle("hide", !isVisible)
   })
 })
 
@@ -23,7 +23,7 @@ $(document).ready(function () {
   fetch("./data/projectsData.json")
     .then(res => res.json())
     .then(data => {
-      users = data.map(user => {
+      projects = data.map(project => {
         const card = userCardTemplate.content.cloneNode(true).children[0]
 
         const header = card.querySelector("[data-header]")
@@ -32,26 +32,23 @@ $(document).ready(function () {
         const path = card.querySelector("[data-path]")
         const image = card.querySelector("[data-image]")
 
-        header.textContent = user.gametitle
-        body.textContent = user.role
-        tools.textContent = user.tools
-        path.href = 'projects/' + user.url + '/project.html'
-        image.src = 'projects/' + user.url + '/templateBannerSize.png'
+        header.textContent = project.title
+        body.textContent = project.role
+        tools.textContent = project.tools
+        path.href = 'projects/' + project.url + '/project.html'
+        image.src = 'projects/' + project.url + '/templateBannerSize.png'
 
 
-        console.log(path)
-        console.log(user.bannerImage)
-        console.log(user.url)
+        //console.log(path)
+        //console.log(project.bannerImage)
+        //console.log(project.url)
 
         userCardContainer.append(card)
-        return { gametitle: user.gametitle, role: user.role, tools: user.tools, path: user.path, element: card }
-      }
-
-      )
+        return { title: project.title, role: project.role, tools: project.tools, path: project.path, element: card }
+      })
 
       //I might delete this line... maybe should
-      .catch(error => console.log(error));
+      //.catch(error => console.log(error));
     })
-
 });
 
