@@ -35,13 +35,13 @@ $(document).ready(function () {
         header.textContent = user.gametitle
         body.textContent = user.role
         tools.textContent = user.tools
-        path.href = user.url//"projects/" + usur.url + /"index.HTML"
-        image.src = user.bannerImage//"projects/" + user.bannerImage + /"banner.png"
+        path.href = 'projects/' + user.url + '/project.html'
+        image.src = 'projects/' + user.url + '/templateBannerSize.png'
+
 
         console.log(path)
         console.log(user.bannerImage)
         console.log(user.url)
-
 
         userCardContainer.append(card)
         return { gametitle: user.gametitle, role: user.role, tools: user.tools, path: user.path, element: card }

@@ -14,8 +14,6 @@ html, body {
 
 input {
 	font-size: 1rem;
-
-
 }
 
 .user-cards {
@@ -25,6 +23,7 @@ input {
 	gap: .25rem;
 	margin-top: 1rem;
 }
+
 .card-img img{
 	display: block;
 
@@ -37,15 +36,15 @@ input {
 	display: block;
 	font-size: x-large;
 	background-color: black;
-	
-
 }
+
 .cardBG{
 	display: flex;
 	position: relative;
 	padding: .5rem;
 	width: 1000px;
 }
+
 .tools{
 	color: white;
 	
@@ -103,7 +102,7 @@ input {
 	color: dimgray;
 }
 
-<!---Style all font awesome icons-->
+<!--Style all font awesome icons-->
 .fa {
   padding: 00px;
   font-size: 20px;

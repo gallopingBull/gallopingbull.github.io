@@ -10,8 +10,7 @@
       "right",
       "bottom"
     ],
-    "url": "projects/caseys_condo/projectTemplate.HTML",
-    "bannerImage": "projects/caseys_condo/templateBannerSize.png"
+    "url": "caseys_condo"
   },
 
   {
@@ -25,8 +24,7 @@
       "right",
       "bottom"
     ],
-    "url": "https://www.joshuasalcido.net/darkstorm",
-    "bannerImage": "projects/darkstorm/templateBannerSize.png"
+    "url": "darkstorm"
   },
 
   {
@@ -40,8 +38,7 @@
       "right",
       "bottom"
     ],
-    "url": "https://www.joshuasalcido.net/darkstorm",
-    "bannerImage": "projects/ninjago_skytemple/templateBannerSize.png"
+    "url":  "ninjago_skytemple"
   },
 
   {
@@ -55,8 +52,7 @@
       "right",
       "bottom"
     ],
-    "url": "Media/SomeImage.png",
-    "bannerImage": "projects/the_bunker/templateBannerSize.png"
+    "url":  "the_bunker"
   },
 
   {
@@ -70,8 +66,7 @@
       "right",
       "bottom"
     ],
-    "url": "Media/SomeImage.png",
-    "bannerImage": "projects/asteroids/templateBannerSize.png"
+    "url":  "asteroids"
   },
 
   {
@@ -85,8 +80,7 @@
       "right",
       "bottom"
     ],
-    "url": "Media/SomeImage.png",
-    "bannerImage": "projects/grow/templateBannerSize.png"
+    "url":  "grow"
   },
   
   {
@@ -100,8 +94,7 @@
       "right",
       "bottom"
     ],
-    "url": "Media/SomeImage.png",
-    "bannerImage": "projects/pondeux/templateBannerSize.png"
+    "url":  "pondeux"
   },
   
   {
@@ -115,8 +108,7 @@
       "right",
       "bottom"
     ],
-    "url": "Media/SomeImage.png",
-    "bannerImage": "projects/andromeda/templateBannerSize.png"
+    "url":  "andromeda"
   },
     
   {
@@ -130,7 +122,6 @@
       "right",
       "bottom"
     ],
-    "url": "https://www.joshuasalcido.net/darkstorm",
-    "bannerImage": "projects/operation_acorn/templateBannerSize.png"
+    "url":  "operation_acorn"
   }  
 ]
