@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
 	height: 100%;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +9,7 @@ html, body {
 .search-wrapper {
 	display: flex;
 	flex-direction: column;
-	
+
 	gap: .25rem;
 }
 
@@ -24,7 +25,7 @@ input {
 	margin-top: 1rem;
 }
 
-.card-img img{
+.card-img img {
 	display: block;
 
 }
@@ -38,28 +39,28 @@ input {
 	background-color: black;
 }
 
-.cardBG{
+.cardBG {
 	display: flex;
 	position: relative;
 	padding: .5rem;
 	width: 1000px;
 }
 
-.tools{
+.tools {
 	color: white;
-	
+
 	font-size: 1rem;
 	font-size: small;
 }
 
-.card > .header {
+.card>.header {
 	color: white;
 	font-size: 1rem;
 	font-size: x-small;
 }
 
-.card > .body {
-	
+.card>.body {
+
 	margin-bottom: 1rem;
 	color: #337ab7;
 }
@@ -73,7 +74,7 @@ input {
 	line-height: 1;
 }
 
-.jobtitle {
+.roletitle {
 	float: left;
 	text-align: bottom;
 }
@@ -102,19 +103,17 @@ input {
 	color: dimgray;
 }
 
-<!--Style all font awesome icons-->
 .fa {
-  padding: 00px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+	padding: 00px;
+	font-size: 20px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
 }
 
-<!---Add a hover effect if you want-->
 .fa:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 .footer-content {
@@ -145,11 +144,11 @@ footer {
 }
 
 .centered {
-  margin: 0 auto;
-  position: absolute;
-  left: 25%;
+	margin: 0 auto;
+	position: absolute;
+	left: 25%;
 	width: absolute;
-   top: 5%;
+	top: 5%;
 }
 
 .bodyContent img {
@@ -161,12 +160,10 @@ footer {
 	margin: 0 auto;
 	max-height: 100%;
 	max-width: 100%;
-	height: auto;	
+	height: auto;
 }
 
-.searchResultsContainer{
-	
-}
+.searchResultsContainer {}
 
 .image {
 	opacity: 1;
@@ -175,8 +172,9 @@ footer {
 	height: auto;
 	transition: .5s ease;
 	backface-visibility: hidden;
-  }
-  .middle {
+}
+
+.middle {
 	transition: .5s ease;
 	opacity: 0;
 	position: absolute;
@@ -185,12 +183,146 @@ footer {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
-  }
+}
 
-  .container:hover .image {
+.container:hover .image {
 	opacity: 0.3;
-  }
-  
-  .container:hover .middle {
+}
+
+.container:hover .middle {
 	opacity: 1;
-  }
+}
+
+/*Project Template CSS*/
+
+.projecttitle {
+	position: relative;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+
+	max-width: 1000px;
+
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+	height: 1000px;
+	position: center;
+	/*Display: none;*/
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+.description 
+{
+	color: #ffffff;
+	display: block;
+	padding: 3%;
+	font-size: medium;
+	text-align: left;
+	position: left;
+	width: 50%;
+	height: 0%;
+
+}
+.specifications
+{
+	color: #ffffff;
+	display: block;
+	padding: 3%;
+	font-size: medium;
+	text-align: right;
+	position: right;
+	width: 50%;
+	height: 0%;
+	
+}

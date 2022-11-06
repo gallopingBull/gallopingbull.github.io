@@ -1,36 +1,84 @@
-	<!---some comment-->
 <html>
+
 <head>
-    <title>project template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<title>project template page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<!-- Add icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="../slideshow.js" defer></script>
 </head>
 
-<body style="background-color: black">
+<body style=" background-color: black">
 	<div class="topnav">
 		<a class="active" href="../../index.html">home</a>
-        <a href="../../projects.html">projects</a>
+		<a href="../../projects.html">projects</a>
 		<div class="websitetitle">
 			<h1 style="color:white">galloping_bull</h1>
 		</div>
-		
-		<div class="jobtitle">
+
+		<div class="roletitle">
 			<h3 style="color:white">unity developer</h3>
 		</div>
 	</div>
-	
+	<div class="projecttitle">
+		<h1 style="color:rgb(255, 255, 255)"> P R O J E C T  T I T L E </h1>
+	</div>
 	<div class="bodyContent">
-		<img src="../../media/digitalSkull.png" alt="An intimidating leopard."/>
+
+		<!--<img src="../../media/digitalSkull.png" alt="An intimidating leopard." />-->
+
+		<!-- Full-width images with number and caption text -->
+		<div class="mySlides fade">
+
+			<img src="media/cc_screenshot_00.png" style="width:100%">
+			<div class="text">Caption Text</div>
+		</div>
+
+		<div class="mySlides fade">
+
+			<img src="media/cc_screenshot_00.png" style="width:100%">
+			<div class="text">Caption Two</div>
+		</div>
+
+		<div class="mySlides fade">
+
+			<img src="media/cc_screenshot_00.png" style="width:100%">
+			<div class="text">Caption Three</div>
+		</div>
+
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<!-- The dots/circles -->
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
 	</div>
 
+<div class="description">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque lobortis felis semper condimentum. Nulla dolor ligula, ultricies vel quam et, tempus ornare nunc. Nullam tristique quam vel tincidunt iaculis. Nullam non luctus diam, vitae finibus lacus. Proin eget enim vel dui tincidunt dignissim. Nulla lacinia justo nec risus imperdiet blandit. Suspendisse et justo id nunc venenatis gravida vel eget nunc. Pellentesque id libero vel mi lacinia fermentum. Donec a ultricies ligula. Suspendisse vulputate neque nec nunc viverra, et semper arcu eleifend. Morbi vitae massa suscipit, imperdiet nunc non, sagittis sem. Suspendisse ornare purus a libero dictum luctus. Aliquam fermentum malesuada orci, nec posuere lacus tincidunt in. Quisque cursus leo a orci dapibus sodales. Praesent tempor, ante semper sagittis aliquam, leo mi gravida eros, a mattis tellus diam in ex. Morbi maximus vitae sapien sed hendrerit.
+
+Etiam at turpis a ipsum vestibulum semper. Phasellus eget lectus sit amet ipsum commodo rhoncus. Quisque et nulla nulla. Sed rhoncus gravida erat, sed lacinia lacus gravida eu. Proin volutpat ante id enim rhoncus euismod. Maecenas ultricies ligula eget dui faucibus convallis. Sed condimentum venenatis nisi. Nunc nec felis ut justo condimentum auctor quis at ex. Maecenas eleifend massa sem, id egestas dui posuere in. Nullam justo ante, aliquam nec ipsum ac, fermentum ornare massa. Aliquam diam metus, facilisis et leo vel, vehicula luctus quam. Sed diam mauris, ultricies eget mattis ut, aliquam vel erat. Maecenas mattis, orci vehicula ultricies volutpat, ipsum dui vehicula libero, id fringilla leo magna ut velit.
+</div>
+<div class="description">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque lobortis felis semper condimentum. Nulla dolor ligula, ultricies vel quam et, tempus ornare nunc. Nullam tristique quam vel tincidunt iaculis. Nullam non luctus diam, vitae finibus lacus. Proin eget enim vel dui tincidunt dignissim. Nulla lacinia justo nec risus imperdiet blandit. Suspendisse et justo id nunc venenatis gravida vel eget nunc. Pellentesque id libero vel mi lacinia fermentum. Donec a ultricies ligula. Suspendisse vulputate neque nec nunc viverra, et semper arcu eleifend. Morbi vitae massa suscipit, imperdiet nunc non, sagittis sem. Suspendisse ornare purus a libero dictum luctus. Aliquam fermentum malesuada orci, nec posuere lacus tincidunt in. Quisque cursus leo a orci dapibus sodales. Praesent tempor, ante semper sagittis aliquam, leo mi gravida eros, a mattis tellus diam in ex. Morbi maximus vitae sapien sed hendrerit.
+
+Etiam at turpis a ipsum vestibulum semper. Phasellus eget lectus sit amet ipsum commodo rhoncus. Quisque et nulla nulla. Sed rhoncus gravida erat, sed lacinia lacus gravida eu. Proin volutpat ante id enim rhoncus euismod. Maecenas ultricies ligula eget dui faucibus convallis. Sed condimentum venenatis nisi. Nunc nec felis ut justo condimentum auctor quis at ex. Maecenas eleifend massa sem, id egestas dui posuere in. Nullam justo ante, aliquam nec ipsum ac, fermentum ornare massa. Aliquam diam metus, facilisis et leo vel, vehicula luctus quam. Sed diam mauris, ultricies eget mattis ut, aliquam vel erat. Maecenas mattis, orci vehicula ultricies volutpat, ipsum dui vehicula libero, id fringilla leo magna ut velit.
+</div>
+	
 </body>
 
 <footer>
@@ -38,10 +86,10 @@
 	<!-- Add font awesome icons -->
 	<a href="https://github.com/gallopingBull" class="fa fa-github"></a>
 	<a href="https://twitter.com/galloping_bull" class="fa fa-twitter"></a>
-	<a href="https://www.youtube.com/channel/UCk-UDBulq5Hr9IQYkdHFDrg" class="fa fa-youtube"></a>
+	<a href="https://www.youtube.com/@galloping_bull" class="fa fa-youtube"></a>
 	<a href="#" class="fa fa-instagram"></a>
 	<!--<a href="#" class="fa fa-linkedin"></a>-->
-	
+
 	<!--TODO: look into a implementing these. not in current css libs/font-awesome/4-->
 	<!--<a href="#" class="fa fa-itch.io"></a>-->
 	<!--<a href="#" class="fa fa-mastadon"></a>-->
